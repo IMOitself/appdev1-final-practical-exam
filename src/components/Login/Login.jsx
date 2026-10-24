@@ -34,6 +34,24 @@ export default function Login() {
                             Login
                         </button>
                     </form>
+                    <div className={styles.divider}>
+                        <span>Or</span>
+                    </div>
+
+                    <div className={styles.socials}>
+                        <button type="button" className={styles.social}>
+                            <img src={googleIcon} alt="" />
+                            Sign in with Google
+                        </button>
+                        <button type="button" className={styles.social}>
+                            <img src={appleIcon} alt="" />
+                            Sign in with Apple
+                        </button>
+                    </div>
+
+                    <p className={styles.signin}>
+                        Don’t have an account? <a href="#">Sign Up</a>
+                    </p>
                 </div>
             </section>
 
