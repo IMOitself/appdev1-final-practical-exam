@@ -10,6 +10,21 @@
     flex: 1;
 }
 
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 53%;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
 .right {
     display: flex;
     align-items: center;
