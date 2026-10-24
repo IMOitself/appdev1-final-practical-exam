@@ -7,10 +7,10 @@
 }
 
 body {
-  font-family: "Poppins", system-ui, sans-serif;
+  font-family: var(--font-family-base);
   font-size: 16px;
-  color: #000;
-  background: #ececec;
+  color: var(--color-text-primary);
+  background: var(--color-bg-page);
   min-height: 100vh;
   padding: 1.5rem;
   display: grid;

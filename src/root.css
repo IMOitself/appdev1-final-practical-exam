@@ -1,0 +1,60 @@
+:root {
+  /* Colors */
+  --color-primary: #3a5a20;
+  --color-text-primary: #000;
+  --color-text-link: #2b4fd8;
+  --color-placeholder: #c4c4c4;
+  --color-border: #d9d9d9;
+  --color-bg-white: #fff;
+  --color-bg-hover: #f6f6f6;
+  --color-bg-page: #ececec;
+
+  /* Typography */
+  --font-family-base: "Poppins", system-ui, sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* Font Sizes */
+  --font-size-xs: 0.45rem;
+  --font-size-sm: 0.5rem;
+  --font-size-input-sm: 0.55rem;
+  --font-size-label-sm: 0.6rem;
+  --font-size-base: 0.65rem;
+  --font-size-social: 0.7rem;
+  --font-size-input: 0.8rem;
+  --font-size-label: 0.85rem;
+  --font-size-title-sm: 1.4rem;
+  --font-size-title: 2rem;
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-gap-sm: 0.3rem;
+  --spacing-gap-md: 0.35rem;
+  --spacing-gap-base: 0.4rem;
+  --spacing-gap-lg: 0.5rem;
+  --spacing-gap-xl: 0.75rem;
+  --spacing-gap-socials: 0.8rem;
+  --spacing-field-sm: 0.75rem;
+  --spacing-field: 1.1rem;
+  --spacing-terms: 1.6rem;
+  --spacing-signin: 1.4rem;
+  --spacing-subtitle: 1.75rem;
+  --spacing-divider: 2rem;
+  --spacing-title: 2.5rem;
+
+  /* Input & Button Padding */
+  --padding-input-sm: 0.4rem 0.6rem;
+  --padding-input: 0.6rem 0.8rem;
+  --padding-btn-sm: 0.5rem;
+  --padding-btn: 0.7rem;
+  --padding-social: 0.55rem 0.5rem;
+
+  /* Border Radii */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+
+  /* Layout / Sizing */
+  --icon-size-social: 1rem;
+  --divider-height: 1px;
+}

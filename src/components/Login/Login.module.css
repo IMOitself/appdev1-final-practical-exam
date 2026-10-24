@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     min-height: calc(100vh - 3rem);
-    background: #fff;
+    background: var(--color-bg-white);
 }
 
 .left,
@@ -21,14 +21,14 @@
 }
 
 .title {
-    margin-bottom: 0.35rem;
-    font-size: 1.4rem;
-    font-weight: 500;
+    margin-bottom: var(--spacing-gap-md);
+    font-size: var(--font-size-title-sm);
+    font-weight: var(--font-weight-medium);
 }
 
 .subtitle {
-    margin-bottom: 1.75rem;
-    font-size: 0.65rem;
+    margin-bottom: var(--spacing-subtitle);
+    font-size: var(--font-size-base);
 }
 
 /* ---------- form ---------- */
@@ -41,30 +41,30 @@
 .field {
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
-    margin-bottom: 0.75rem;
+    gap: var(--spacing-gap-sm);
+    margin-bottom: var(--spacing-field-sm);
 }
 
 .field label {
-    font-size: 0.6rem;
-    font-weight: 500;
+    font-size: var(--font-size-label-sm);
+    font-weight: var(--font-weight-medium);
 }
 
 .field input {
-    padding: 0.4rem 0.6rem;
-    border: 1px solid #d9d9d9;
-    border-radius: 6px;
+    padding: var(--padding-input-sm);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
     font: inherit;
-    font-size: 0.55rem;
+    font-size: var(--font-size-input-sm);
     outline: none;
 }
 
 .field input::placeholder {
-    color: #c4c4c4;
+    color: var(--color-placeholder);
 }
 
 .field input:focus {
-    border-color: #3a5a20;
+    border-color: var(--color-primary);
 }
 
 .labelRow {
@@ -74,8 +74,8 @@
 }
 
 .forgot {
-    font-size: 0.45rem;
-    color: #2b4fd8;
+    font-size: var(--font-size-xs);
+    color: var(--color-text-link);
     text-decoration: none;
 }
 
@@ -86,20 +86,20 @@
 .terms {
     display: flex;
     align-items: center;
-    gap: 0.35rem;
-    margin-bottom: 1.1rem;
-    font-size: 0.5rem;
+    gap: var(--spacing-gap-md);
+    margin-bottom: var(--spacing-field);
+    font-size: var(--font-size-sm);
 }
 
 .submit {
-    padding: 0.5rem;
+    padding: var(--padding-btn-sm);
     border: none;
-    border-radius: 6px;
-    background: #3a5a20;
-    color: #fff;
+    border-radius: var(--radius-sm);
+    background: var(--color-primary);
+    color: var(--color-bg-white);
     font: inherit;
-    font-size: 0.6rem;
-    font-weight: 600;
+    font-size: var(--font-size-label-sm);
+    font-weight: var(--font-weight-semibold);
     cursor: pointer;
 }
 
@@ -112,24 +112,24 @@
 .divider {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
-    margin: 2rem 0;
-    font-size: 0.65rem;
+    gap: var(--spacing-gap-xl);
+    margin: var(--spacing-divider) 0;
+    font-size: var(--font-size-base);
 }
 
 .divider::before,
 .divider::after {
     content: "";
     flex: 1;
-    height: 1px;
-    background: #d9d9d9;
+    height: var(--divider-height);
+    background: var(--color-border);
 }
 
 /* ---------- socials ---------- */
 
 .socials {
     display: flex;
-    gap: 0.8rem;
+    gap: var(--spacing-gap-socials);
 }
 
 .social {
@@ -137,35 +137,35 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
-    padding: 0.55rem 0.5rem;
-    border: 1px solid #d9d9d9;
-    border-radius: 8px;
-    background: #fff;
+    gap: var(--spacing-gap-lg);
+    padding: var(--padding-social);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--color-bg-white);
     font: inherit;
-    font-size: 0.7rem;
-    font-weight: 500;
+    font-size: var(--font-size-social);
+    font-weight: var(--font-weight-medium);
     cursor: pointer;
 }
 
 .social:hover {
-    background: #f6f6f6;
+    background: var(--color-bg-hover);
 }
 
 .social img {
-    width: 1rem;
-    height: 1rem;
+    width: var(--icon-size-social);
+    height: var(--icon-size-social);
 }
 
 .signin {
-    margin-top: 1.4rem;
+    margin-top: var(--spacing-signin);
     text-align: center;
-    font-size: 0.8rem;
+    font-size: var(--font-size-input);
 }
 
 .signin a {
-    margin-left: 0.25rem;
-    color: #2b4fd8;
+    margin-left: var(--spacing-xs);
+    color: var(--color-text-link);
     text-decoration: none;
 }
 
