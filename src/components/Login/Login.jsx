@@ -2,6 +2,7 @@ import styles from "./Login.module.css";
 import flower from "../../assets/blossom-flower.svg";
 import googleIcon from "../../assets/icons-google-logo.svg";
 import appleIcon from "../../assets/icons-apple-logo.svg";
+import { Input } from "@/components/ui/input";
 
 export default function Login() {
     return (
@@ -14,7 +15,7 @@ export default function Login() {
                     <form className={styles.form} onSubmit={(e) => e.preventDefault()}>
                         <div className={styles.field}>
                             <label htmlFor="email">Email address</label>
-                            <input id="email" type="email" placeholder="Enter your email" />
+                            <Input id="email" type="email" placeholder="Enter your email" />
                         </div>
 
                         <div className={styles.field}>
@@ -22,7 +23,7 @@ export default function Login() {
                                 <label htmlFor="password">Password</label>
                                 <a href="#" className={styles.forgot}>forgot password</a>
                             </div>
-                            <input id="password" type="password" placeholder="Enter your password" />
+                            <Input id="password" type="password" placeholder="Enter your password" />
                         </div>
 
                         <label className={styles.terms}>
