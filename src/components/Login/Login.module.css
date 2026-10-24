@@ -21,9 +21,14 @@
 }
 
 .title {
-    margin-bottom: 2.5rem;
-    font-size: 2rem;
+    margin-bottom: 0.35rem;
+    font-size: 1.4rem;
     font-weight: 500;
+}
+
+.subtitle {
+    margin-bottom: 1.75rem;
+    font-size: 0.65rem;
 }
 
 /* ---------- form ---------- */
