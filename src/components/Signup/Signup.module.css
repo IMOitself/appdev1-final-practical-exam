@@ -1,0 +1,22 @@
+.signup {
+    display: flex;
+    width: 100%;
+    min-height: calc(100vh - 3rem);
+    background: #fff;
+}
+
+.left,
+.right {
+    flex: 1;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flower {
+    width: 100%;
+    height: auto;
+}
