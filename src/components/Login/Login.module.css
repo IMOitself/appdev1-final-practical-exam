@@ -1,0 +1,171 @@
+.login {
+    display: flex;
+    width: 100%;
+    min-height: calc(100vh - 3rem);
+    background: #fff;
+}
+
+.left,
+.right {
+    flex: 1;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 53%;
+}
+
+.title {
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* ---------- form ---------- */
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-bottom: 1.1rem;
+}
+
+.field label {
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.field input {
+    padding: 0.6rem 0.8rem;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    font: inherit;
+    font-size: 0.8rem;
+    outline: none;
+}
+
+.field input::placeholder {
+    color: #c4c4c4;
+}
+
+.field input:focus {
+    border-color: #3a5a20;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.6rem;
+    font-size: 0.7rem;
+}
+
+.terms a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.submit {
+    padding: 0.7rem;
+    border: none;
+    border-radius: 8px;
+    background: #3a5a20;
+    color: #fff;
+    font: inherit;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.submit:hover {
+    filter: brightness(1.15);
+}
+
+/* ---------- divider ---------- */
+
+.divider {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 2rem 0;
+    font-size: 0.65rem;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #d9d9d9;
+}
+
+/* ---------- socials ---------- */
+
+.socials {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.social {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.55rem 0.5rem;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    background: #fff;
+    font: inherit;
+    font-size: 0.7rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.social:hover {
+    background: #f6f6f6;
+}
+
+.social img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.signin {
+    margin-top: 1.4rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.signin a {
+    margin-left: 0.25rem;
+    color: #2b4fd8;
+    text-decoration: none;
+}
+
+.signin a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- right ---------- */
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flower {
+    width: 100%;
+    height: auto;
+}
